@@ -1,0 +1,70 @@
+.productos {
+    padding: 60px 80px;
+    background-color: #C8EEE8;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 26px;
+    font-weight: 800px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 30px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tarjeta-img {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tarjeta-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tarjeta h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.tarjeta p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    /* Limita el texto a 3 líneas para que todas las tarjetas tengan el mismo alto */
+    flex: 1;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: 800;
+    color: orange;
+    margin-bottom: 16px;
+}
+
+.tarjeta .btn {
+    width: 100%;
+    padding: 10px;
+}

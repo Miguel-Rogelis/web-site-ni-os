@@ -1,0 +1,87 @@
+.footer {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 40px 80px 20px 80px;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-col h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #F9C740;
+}
+
+.footer-col p {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+    font-size: 13px;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex: 0.5;
+}
+
+.footer-redes a {
+    text-decoration: none;
+    color: white;
+    background-color: #F9C740;
+    color: #333;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Formulario de suscripción al boletín */
+.footer-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-form input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    flex: 1;
+    color: #333;
+    font-size: 13px;
+}
+
+/* Línea de derechos de autor al fondo del footer */
+.footer-copy {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 15px;
+    font-size: 12px;
+    color: #777;
+}
